@@ -4,10 +4,10 @@ description: >-
   I turn coffee :coffee: into code,
   use tabs over spaces
   and never broke production.
-baseurl: "/portfolYOU" # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+baseurl: "/portfolio_site" # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository: YoussefRaafatNasry/portfolYOU # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme: YoussefRaafatNasry/portfolYOU
-open_new_tab: false # Opens external URLs in new tab (works for posts, projects and navbar only)
+open_new_tab: true # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 ### Plugins ###
 plugins:
@@ -57,7 +57,7 @@ collections:
 
 ### Disqus ###
 disqus:
-  shortname: your-short-name-disqus # Your website Shortname on disqus
+  shortname: portfolio_site # Your website Shortname on disqus
 
 ### Analytics ###
 analytics:
